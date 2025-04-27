@@ -8,9 +8,9 @@ import MainDashDark from './components/MainDashDark.jsx'
 function App() {
 
   return (
-  <div className="container mx-auto py-10 px-4">
-    <Tabs defaultValue="onboarding-dark" className="w-full ">
-      <TabsList className="grid grid-cols-4 mb-8 text-center">
+  <div className="container mx-auto md:py-10 py-2 px-2 md:px-4">
+    <Tabs defaultValue="onboarding-dark" className="w-full">
+      <TabsList className="grid md:grid-cols-4 grid-cols-2 mb-8 text-center">
         <TabsTrigger value="onboarding-light">Onboarding Light</TabsTrigger>
         <TabsTrigger value="onboarding-dark">Onboarding Dark</TabsTrigger>
         <TabsTrigger value="dashboard">Main Dashboard</TabsTrigger>
